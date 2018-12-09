@@ -2,3 +2,6 @@ Data_Dictionary.xlsx
 **/*.csv
 **/*.pem
 progress_notebooks/*
+nohup.out
+elo_venv/*
+config/*
