@@ -6,3 +6,4 @@ nohup.out
 elo_venv/*
 .idea/*
 config/*
+**/__pycache__/*
