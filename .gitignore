@@ -1,0 +1,4 @@
+Data_Dictionary.xlsx
+**/*.csv
+**/*.pem
+progress_notebooks/*

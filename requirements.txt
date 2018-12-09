@@ -1,0 +1,10 @@
+pandas
+numpy
+s3fs
+datetime
+scipy
+matplotlib
+seaborn
+pyparsing
+scikit-learn
+
