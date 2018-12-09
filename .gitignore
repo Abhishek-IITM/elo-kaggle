@@ -4,4 +4,5 @@ Data_Dictionary.xlsx
 progress_notebooks/*
 nohup.out
 elo_venv/*
+.idea/*
 config/*
