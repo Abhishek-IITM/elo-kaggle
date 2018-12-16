@@ -25,6 +25,8 @@ def field_to_features(source_df, field, path=path.path, nrows=None):
         df = pd.read_csv(source_df, usecols=["card_id", field], nrows=nrows)
     except Exception as e:
         _log.exception(e)
+    _log.info("Successfully read from {}".format(source_df))
+    df.loc[pd.isnull(df[field]), field] = -100
 
     keys = pd.Series(list(set(df[field])))
     vals = keys.apply(lambda x: "{}_{}_{}".format(prefix, field, x))
