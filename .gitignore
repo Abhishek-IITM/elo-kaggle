@@ -7,3 +7,4 @@ elo_venv/*
 .idea/*
 config/*
 **/__pycache__/*
+logs/*
