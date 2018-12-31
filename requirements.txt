@@ -7,4 +7,4 @@ matplotlib
 seaborn
 pyparsing
 scikit-learn
-
+h2o
