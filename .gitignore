@@ -8,3 +8,5 @@ elo_venv/*
 **/__pycache__/*
 logs/*
 .DS_Store
+.ipynb_checkpoints/*
+*.ipynb
